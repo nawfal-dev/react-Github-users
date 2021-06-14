@@ -13,7 +13,6 @@ import Error from './pages/Error'
 export const App = () => {
   return (
     <main>
-      <h1>App.js</h1>
       <GithubUsersProvider>
         <Home />
       </GithubUsersProvider>
